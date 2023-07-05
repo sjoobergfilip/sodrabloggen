@@ -1,4 +1,5 @@
 import { getPostData, getSortedPostsData } from "@/lib/post";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -35,16 +36,9 @@ export default async function Post({ params }: { params: { postId: string } }) {
         return notFound();
     }
 
-    const {
-        id,
-        title,
-        date,
-        author,
-        description,
-        categorys,
-        postImage,
-        contentHtml,
-    } = await getPostData(postId);
+    const { title, date, author, postImage, contentHtml } = await getPostData(
+        postId
+    );
 
     return (
         <article>
@@ -58,10 +52,12 @@ export default async function Post({ params }: { params: { postId: string } }) {
                     >
                         Tillbaka till alla nyheter
                     </Link>
-                    <img
+                    <Image
                         className='w-full h-5/6 object-cover'
                         src={postImage}
                         alt={title}
+                        width={600}
+                        height={600}
                     />
                 </div>
             </section>
@@ -79,13 +75,13 @@ export default async function Post({ params }: { params: { postId: string } }) {
                         })}
                     </h3>
                     <div className='flex items-center mt-4'>
-                        <img
+                        <Image
                             className='h-10 w-10 rounded-full mr-3'
                             src={author.image}
                             alt={author.name}
                             width={40}
                             height={40}
-                        ></img>
+                        ></Image>
                         <Link
                             target='_blank'
                             href={author.twitterLink}

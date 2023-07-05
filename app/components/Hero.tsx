@@ -1,17 +1,20 @@
 import { getLatestPost } from "@/lib/post";
 import Link from "next/link";
 import { FiArrowRight } from "react-icons/fi";
+import Image from "next/image";
 
 const Hero = () => {
     const latestPost = getLatestPost();
 
     return (
         <div className='relative w-full banner custom-min-height mb-12'>
-            <img
+            <Image
                 className='object-cover w-full h-full'
                 src={latestPost.postImage}
                 alt={latestPost.title}
-            ></img>
+                width={1000}
+                height={1000}
+            ></Image>
             <div className='absolute bottom-0 w-full h-full flex justify-between rounded p-7 text-white drop-shadow-lg bg-gradient-to-t from-black via-transparent to-transparent'>
                 <div className='flex justify-end h-full max-w-lg flex-col pb-7'>
                     <div className='flex'>
@@ -37,13 +40,13 @@ const Hero = () => {
                                 </p>
                                 <div className='flex justify-between italic ml-2 mt-4'>
                                     <div className='flex justify-center items-center'>
-                                        <img
+                                        <Image
                                             className='h-10 w-10 rounded-full mr-3'
                                             src={latestPost.author.image}
                                             alt={latestPost.author.name}
                                             width={40}
                                             height={40}
-                                        ></img>
+                                        ></Image>
                                         <p className='text-gray-300 line-clamp-2'>
                                             {latestPost.author.twitterName}
                                         </p>
@@ -62,13 +65,13 @@ const Hero = () => {
                             </p>
                             <div className='flex justify-between italic ml-2 mt-4'>
                                 <div className='flex justify-center items-center'>
-                                    <img
+                                    <Image
                                         className='h-10 w-10 rounded-full mr-3'
                                         src={latestPost.author.image}
                                         alt={latestPost.author.name}
                                         width={40}
                                         height={40}
-                                    ></img>
+                                    ></Image>
                                     <p className='text-gray-300 line-clamp-2'>
                                         {latestPost.author.twitterName}
                                     </p>

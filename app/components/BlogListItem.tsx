@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 import { FiArrowRight } from "react-icons/fi";
 import { BlogPost } from "@/types";
@@ -14,10 +15,14 @@ const BlogListItem = ({ post }: Props) => {
     return (
         <Link href={`/nyhet/${id}`}>
             <div className='relative h-80 w-full'>
-                <img
+                <Image
                     className='w-full h-full object-cover object-left lg:object-center'
                     src={postImage}
-                ></img>
+                    alt={author.name}
+                    width={600}
+                    height={600}
+                    style={{ width: "100%", height: "auto" }} // optional
+                ></Image>
             </div>
             <div className='mt-5 flex-1 px-10 pb-16 md:pb-0'>
                 <div className='flex'>
@@ -52,13 +57,13 @@ const BlogListItem = ({ post }: Props) => {
                 </p>
                 <div className='flex justify-between pt-10'>
                     <div className='flex justify-center items-center'>
-                        <img
+                        <Image
                             className='h-10 w-10 rounded-full mr-3'
                             src={author.image}
                             alt={author.name}
                             width={40}
                             height={40}
-                        ></img>
+                        ></Image>
                         <p className='text-gray-500 line-clamp-2'>
                             {author.twitterName}
                         </p>
