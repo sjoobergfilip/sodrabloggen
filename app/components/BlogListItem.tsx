@@ -16,15 +16,14 @@ const BlogListItem = ({ post }: Props) => {
         <Link href={`/nyhet/${id}`}>
             <div className='relative h-80 w-full'>
                 <Image
-                    className='w-full h-full object-cover object-left lg:object-center'
+                    className='h-full object-cover object-left lg:object-center'
                     src={postImage}
                     alt={author.name}
                     width={600}
                     height={600}
-                    style={{ width: "100%", height: "auto" }} // optional
                 ></Image>
             </div>
-            <div className='mt-5 flex-1 px-10 pb-16 md:pb-0'>
+            <div className='mt-5 flex-1 px-7 md:px-0 pb-16 md:pb-0'>
                 <div className='flex'>
                     <div className='flex flex-col items-end mr-3'>
                         <h3 className='font-bold text-2xl text-[#C79433] leading-none'>

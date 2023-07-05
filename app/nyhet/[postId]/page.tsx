@@ -24,7 +24,8 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
     }
 
     return {
-        title: post.title,
+        title: `Södrabloggen - ${post.title}`,
+        description: post.description,
     };
 }
 
@@ -36,9 +37,8 @@ export default async function Post({ params }: { params: { postId: string } }) {
         return notFound();
     }
 
-    const { title, date, author, postImage, contentHtml } = await getPostData(
-        postId
-    );
+    const { title, date, author, postImage, contentHtml, categorys } =
+        await getPostData(postId);
 
     return (
         <article>
@@ -62,8 +62,8 @@ export default async function Post({ params }: { params: { postId: string } }) {
                 </div>
             </section>
             {/* Content */}
-            <section className=' max-w-4xl mx-auto mb-16 artical'>
-                <div className='mb-12'>
+            <section className=' max-w-3xl mx-auto mb-16 artical px-10 md:px-3'>
+                <div className='mb-7'>
                     <h1 className='uppercase font-bold text-5xl mt-4 leading-none'>
                         {title}
                     </h1>
@@ -89,6 +89,16 @@ export default async function Post({ params }: { params: { postId: string } }) {
                         >
                             {author.twitterName}
                         </Link>
+                    </div>
+                    <div className='flex items-center space-x-2 mb-4'>
+                        {categorys.map((category: any) => (
+                            <p
+                                key={category}
+                                className='mt-4 rounded-full bg-[#0C2309] px-3 py-1 text-sm uppercase text-white'
+                            >
+                                {category}
+                            </p>
+                        ))}
                     </div>
                 </div>
                 <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
