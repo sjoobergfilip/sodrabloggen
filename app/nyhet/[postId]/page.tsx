@@ -26,6 +26,26 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
     return {
         title: `Södrabloggen - ${post.title}`,
         description: post.description,
+        openGraph: {
+            title: post.title,
+            url: window.location.href,
+            siteName: "Södrabloggen",
+            images: [
+                {
+                    url: post.postImage,
+                    width: 800,
+                    height: 600,
+                },
+                {
+                    url: post.postImage,
+                    width: 1800,
+                    height: 1600,
+                    alt: post.title,
+                },
+            ],
+            locale: "sv_SE",
+            type: "website",
+        },
     };
 }
 
