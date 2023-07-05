@@ -8,21 +8,7 @@ export const metadata = {
     description: "En plats för alla Södraiter",
     openGraph: {
         title: "Södrabloggen",
-        url: window.location.href,
         siteName: "Södrabloggen",
-        images: [
-            {
-                url: seoImage,
-                width: 800,
-                height: 600,
-            },
-            {
-                url: seoImage,
-                width: 1800,
-                height: 1600,
-                alt: "Vallen",
-            },
-        ],
         locale: "sv_SE",
         type: "website",
     },

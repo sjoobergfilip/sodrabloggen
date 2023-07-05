@@ -28,7 +28,6 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
         description: post.description,
         openGraph: {
             title: post.title,
-            url: window.location.href,
             siteName: "Södrabloggen",
             images: [
                 {
