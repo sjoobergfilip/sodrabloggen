@@ -47,7 +47,10 @@ const BlogListItem = ({ post }: Props) => {
                 </div>
                 <div className='flex items-center space-x-2 mb-4'>
                     {categorys.map((category: any) => (
-                        <p className='mt-4 rounded-full bg-[#0C2309] px-3 py-1 text-sm uppercase text-white'>
+                        <p
+                            key={category}
+                            className='mt-4 rounded-full bg-[#0C2309] px-3 py-1 text-sm uppercase text-white'
+                        >
                             {category}
                         </p>
                     ))}

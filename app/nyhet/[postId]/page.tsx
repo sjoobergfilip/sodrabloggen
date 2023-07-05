@@ -11,7 +11,7 @@ export function generateStaticParams() {
     }));
 }
 
-export function generateMetaData({ params }: { params: { postId: string } }) {
+export function generateMetadata({ params }: { params: { postId: string } }) {
     const posts = getSortedPostsData();
     const { postId } = params;
 
@@ -19,7 +19,7 @@ export function generateMetaData({ params }: { params: { postId: string } }) {
 
     if (!post) {
         return {
-            title: "Not Found",
+            title: "Post Not Found",
         };
     }
 
