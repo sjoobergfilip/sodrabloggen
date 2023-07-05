@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import RoundLogo from "../../public/logo/sodrabloggen_whitetext.png";
-import { BsTiktok, BsInstagram, BsTwitter } from "react-icons/bs";
+import { BsTiktok, BsInstagram, BsTwitter, BsFacebook } from "react-icons/bs";
 const Navbar = () => {
     return (
         <header className='bg-[#0c2309] flex items-center justify-between space-x-2 font-bold px-10 py-5 static'>
@@ -21,23 +21,23 @@ const Navbar = () => {
                     <Link
                         className='mr-5 text'
                         target='_blank'
-                        href='https://printler.com/sv/print-shop/17211-filip-sjoberg/'
+                        href='https://www.instagram.com/sodrabloggen/'
                     >
                         <BsInstagram size='1.5rem' />
                     </Link>
                     <Link
                         className='mr-5'
                         target='_blank'
-                        href='https://printler.com/sv/print-shop/17211-filip-sjoberg/'
+                        href='https://twitter.com/sodrabloggen'
                     >
                         <BsTwitter size='1.5rem' />
                     </Link>
                     <Link
                         className='mr-5'
                         target='_blank'
-                        href='https://printler.com/sv/print-shop/17211-filip-sjoberg/'
+                        href='https://www.facebook.com/sodrabloggen'
                     >
-                        <BsTiktok size='1.5rem' />
+                        <BsFacebook size='1.5rem' />
                     </Link>
                 </div>
                 <div>

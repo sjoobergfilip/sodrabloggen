@@ -23,28 +23,21 @@ const Footer = () => {
                             <Link
                                 className='mr-4 text border-[1px] border-white p-2 rounded-full'
                                 target='_blank'
-                                href='https://printler.com/sv/print-shop/17211-filip-sjoberg/'
+                                href='https://www.instagram.com/sodrabloggen/'
                             >
                                 <BsInstagram size='1.3rem' />
                             </Link>
                             <Link
                                 className='mr-4 text border-[1px] border-white p-2 rounded-full'
                                 target='_blank'
-                                href='https://printler.com/sv/print-shop/17211-filip-sjoberg/'
+                                href='https://twitter.com/sodrabloggen'
                             >
                                 <BsTwitter size='1.3rem' />
                             </Link>
                             <Link
                                 className='mr-4 text border-[1px] border-white p-2 rounded-full'
                                 target='_blank'
-                                href='https://printler.com/sv/print-shop/17211-filip-sjoberg/'
-                            >
-                                <BsTiktok size='1.3rem' />
-                            </Link>
-                            <Link
-                                className='mr-4 text border-[1px] border-white p-2 rounded-full'
-                                target='_blank'
-                                href='https://printler.com/sv/print-shop/17211-filip-sjoberg/'
+                                href='https://www.facebook.com/sodrabloggen'
                             >
                                 <BsFacebook size='1.3rem' />
                             </Link>
@@ -54,7 +47,7 @@ const Footer = () => {
                 <p className='text-center mt-4 text-sm italic mb-6'>
                     Har du frågor eller funderingar eller vill vara en del av
                     Södrabloggen hör av dig till oss via sociala medier eller
-                    maila
+                    maila{" "}
                     <a
                         className='text-[#C69433]'
                         href='mailto:info@sodrabloggen.se'
