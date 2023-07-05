@@ -27,14 +27,10 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
         title: `Södrabloggen - ${post.title}`,
         description: post.description,
         openGraph: {
-            title: post.title,
+            title: `Södrabloggen - ${post.title}`,
+            description: post.description,
             siteName: "Södrabloggen",
             images: [
-                {
-                    url: post.postImage,
-                    width: 800,
-                    height: 600,
-                },
                 {
                     url: post.postImage,
                     width: 1800,
