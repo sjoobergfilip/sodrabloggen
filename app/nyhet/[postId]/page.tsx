@@ -36,10 +36,10 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
             siteName: "Södrabloggen",
             images: [
                 {
-                    url: post.postImage,
-                    width: 1800,
-                    height: 1600,
-                    alt: post.title,
+                    url: `https://www.sodrabloggen.se/${post.postImage}`,
+                    width: 1200,
+                    height: 630,
+                    alt: post.description,
                 },
             ],
             locale: "sv_SE",

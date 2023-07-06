@@ -6,7 +6,7 @@ export const size = {
     height: 450,
 };
 
-export const contentType = "image/jpg";
+export const contentType = "image/png";
 
 interface Props {
     params: {
@@ -17,12 +17,13 @@ interface Props {
 export default async function og({ params }: Props) {
     const post = await getPostData(params.postId);
 
-    console.log(post.postImage);
-
     return new ImageResponse(
         (
             <div tw='relative flex items-center justify-center'>
-                <img src={post.postImage} alt={post.title} />
+                <img
+                    src={`https://www.sodrabloggen.se/${post?.postImage}`}
+                    alt={post?.title}
+                />
             </div>
         ),
         size
