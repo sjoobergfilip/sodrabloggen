@@ -17,6 +17,6 @@ Det blev ett halvår för Pashang Abdulla i den gröna tröjan. Den storvuxna an
 
 Pashang har hunnit med 8 mål för Södra denna våren och kommer verkligen lämna ett tomrum efter sig. Hur Södra kommer hantera detta återstår att se. Med Marwan Bazi och Pashang borta kan vi nog räkna med att det kommer värvas när fönstret öppnar. Enligt Gröna Gatan befann sig Mattias Johansson på träningsplanen och genomförde en träning med Södra.
 
-Mattias som har IF Hallby som moderklubb har representerat Kalmar FF, AZ Alkmaar, Panathinaikos FC, Gençlerbirliği SK och senast Legia Warszawa. Han har även spelat sex landskamper för Sverige. Frågan är kan verkligen Södra värva han?
+Mattias som har IF Hallby som moderklubb har representerat Kalmar FF, AZ Alkmaar, Panathinaikos FC, Gençlerbirliği SK och senast Legia Warszawa. Han har även spelat sex landskamper för Sverige. Att han skulle hamna i Södra är dock ytterst tveksamt men vem vet?
 
 Även Yoann Fellrath ryktades till Södra, Yoann som bröt med Skövde AIK sägs ha träffat Södra för en övergång har nu presenterats av Utsikten.
