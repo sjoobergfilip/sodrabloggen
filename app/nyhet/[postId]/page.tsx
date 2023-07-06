@@ -20,14 +20,18 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
     if (!post) {
         return {
             title: "Post Not Found",
+            description: "This post do not exist",
         };
     }
 
     return {
-        title: `Södrabloggen - ${post.title}`,
+        title: post.title,
         description: post.description,
+        alternates: {
+            canonical: `/nyhet/${postId}`,
+        },
         openGraph: {
-            title: `Södrabloggen - ${post.title}`,
+            title: post.title,
             description: post.description,
             siteName: "Södrabloggen",
             images: [
