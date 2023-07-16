@@ -5,6 +5,10 @@ import Image from "next/image";
 
 const Hero = () => {
     const latestPost = getLatestPost();
+    if (!latestPost) {
+        // Handle the case when latestPost is undefined or null
+        return <div>No latest post available</div>;
+    }
 
     return (
         <div className='relative w-full banner custom-min-height mb-12'>

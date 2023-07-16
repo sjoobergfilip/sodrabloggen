@@ -93,6 +93,5 @@ export async function getPostData(id: string) {
         contentHtml,
     };
 
-    // Combine the data with the id
     return blogPostWithHTML;
 }
