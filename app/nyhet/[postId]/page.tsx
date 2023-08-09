@@ -37,8 +37,6 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
             images: [
                 {
                     url: `https://www.sodrabloggen.se/${post.postImage}`,
-                    width: 1200,
-                    height: 630,
                     alt: post.description,
                 },
             ],
