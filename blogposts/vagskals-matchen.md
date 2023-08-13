@@ -19,7 +19,7 @@ På måndag är det dags igen, lite av en vägskälsmatch när bussen går mot �
 
 Det har hänt en hel del i Örebro under sommarfönstret. Både Samuel Dahl och Noel Milleskog har lämnat för Djurgården samtidigt har man värvat Samuel Kroon från BP. 
 
-I Södras fall har man gjort klart med Othman El Kabir som enligt Barny har varit med och tränat med Södra under en längre tid, frågan är om han redo för 90 minuter. Det är även lite av en måste match för Södras del, vara med och utmana i toppen eller dra sig in i botten striden. 
+I Södras fall har man gjort klart med Othman El Kabir som enligt Barny har varit med och tränat med Södra under en längre tid, frågan är om han redo för 90 minuter. Det är även lite av en måste match för Södras del, vara med och utmana i toppen eller dra sig in i bottenstriden. 
 
 Södrabloggen har fått möjligheten att få prata med Arvid Eriksson inför matchen mot Örebro för att se hur läget är i laget.  
 
