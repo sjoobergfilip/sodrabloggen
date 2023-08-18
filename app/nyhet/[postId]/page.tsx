@@ -81,7 +81,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
             {/* Content */}
             <section className=' max-w-3xl mx-auto mb-16 artical px-10 md:px-3'>
                 <div className='mb-7'>
-                    <h1 className='uppercase font-bold text-4xl md:text-5xl mt-4 leading-none'>
+                    <h1 className='hyphens-auto break-words uppercase font-bold text-4xl md:text-5xl mt-4 leading-none'>
                         {title}
                     </h1>
                     <h3 className='font-bold text-xl text-[#C79433]'>
