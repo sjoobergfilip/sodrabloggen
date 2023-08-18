@@ -11,6 +11,7 @@
 body {
     color: #000000;
     background: #fdfdf8;
+    overflow: hidden;
 }
 
 .banner {
@@ -26,10 +27,14 @@ body {
 }
 .artical p {
     margin-bottom: 14px;
+    font-size: 16px;
 }
 
 @media (min-width: 768px) {
     .custom-min-height {
         min-height: 70%;
+    }
+    .artical p {
+        font-size: 14px;
     }
 }
