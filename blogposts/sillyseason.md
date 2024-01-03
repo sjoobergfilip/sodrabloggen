@@ -15,6 +15,16 @@ description: Håll kloll på de senaste rykterna som florerar kring Jönkäpings
 
 Här kommer jag försöka samla allt som pratas om Södra under vintern och våren, spelare som ryktas ut och spelare som ryktas in. Hör du något som du vill dela med sig så skicka ett DM.
 
+### Benjamin Tannus på plats i Jönköping?
+
+**3: Januari**
+
+Enligt mina uppgifter så är den tidigare J-Södra spelaren Benjamin Tannus påväg tillbaka till klubben, det sägs att han är på plats i Jönköping för att skriva på ett avtal. Benjamin kommer senastfrån Åtvidaberg där han förra säsongen var lagkapten.
+
+**3: Januari**
+
+Bengt Canell berättar för JP att man är i förhandlignar med Alexander Nilsson, Daniel Strandsäter och Anton Thorsson om vidare spel i den gröna tröjan.A lla tre hade klausuler i sina kontrakt som säger att kontraktet ska omförhandlas vid degradering. Om det blir någon förlängning av Elias Nordströms lån var Bengt tveksam till.
+
 ### Södra förhandlar med flera spelare.
 
 **3: Januari**
