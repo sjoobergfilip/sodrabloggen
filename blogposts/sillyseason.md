@@ -19,7 +19,7 @@ Här kommer jag försöka samla allt som pratas om Södra under vintern och vår
 
 **3: Januari**
 
-Enligt mina uppgifter så är den tidigare J-Södra spelaren Benjamin Tannus påväg tillbaka till klubben, det sägs att han är på plats i Jönköping för att skriva på ett avtal. Benjamin kommer senastfrån Åtvidaberg där han förra säsongen var lagkapten.
+Enligt mina uppgifter så är den tidigare J-Södra spelaren Benjamin Tannus påväg tillbaka till klubben, det sägs att han är på plats i Jönköping för att skriva på ett avtal. Benjamin kommer senast ifrån Åtvidaberg där han förra säsongen var lagkapten.
 
 ### Södra förhandlar med flera spelare.
 
