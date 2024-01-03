@@ -29,6 +29,15 @@ body {
     font-size: 16px;
 }
 
+section h2 {
+    font-size: 22px;
+}
+
+section h3 {
+    color: #C79433;
+    font-size: 22px;
+}
+
 @media (min-width: 768px) {
     .custom-min-height {
         min-height: 70%;
