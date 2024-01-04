@@ -2,12 +2,12 @@
 title: Drömmål och tre nya poäng
 date: "2023-07-16"
 author:
-    {
-        name: Filip Sjöberg,
-        twitterName: "@Sjobergfilip",
-        twitterLink: https://twitter.com/sjobergfilip,
-        image: "/images/author/filip.jpg",
-    }
+  {
+    name: Filip Sjöberg,
+    twitterName: "@Sjobergfilip",
+    twitterLink: https://twitter.com/sjobergfilip,
+    image: "/images/author/filip.jpg",
+  }
 postImage: "/images/blog/flamur.jpg"
 categorys: [artikel]
 description: "Det var ett Sundsvall som kom till Stadsparksvallen för att försvara, vilket var väldigt tydligt. Under de första 20 minuterna var det inte många pass inom laget innan bollen skickades långt ner till Södras backlinje så att vi återigen kunde etablera spelet."
