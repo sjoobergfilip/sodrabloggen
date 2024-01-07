@@ -1,6 +1,6 @@
 ---
 title: Silly Season
-date: "2024-01-03"
+date: "2024-01-06"
 author:
   {
     name: Filip Sjöberg,
@@ -8,26 +8,32 @@ author:
     twitterLink: https://twitter.com/sjobergfilip,
     image: "/images/author/filip.jpg",
   }
-postImage: "/images/blog/abdulla.jpg"
+postImage: "/images/blog/strandsater.jpeg"
 categorys: [Silly Season]
 description: Håll kloll på de senaste rykterna som florerar kring Jönkäpings Södra, inlägget uppdateras löpade
 ---
 
 Här kommer jag försöka samla allt som pratas om Södra under vintern och våren, spelare som ryktas ut och spelare som ryktas in. Hör du något som du vill dela med sig så skicka ett DM.
 
-### Benjamin Tannus på plats i Jönköping?
+### Daniel Strandsäter är klar för 2024
+
+**6:e januari**
+
+Tidigare i veckan berättade Bengt Canell att man låg i förhandlignar om ett förlängt kontrakt med tre spelare. Nu är det bekräftat från klubben att Daniel Strandsäter blir kvar i den gröna tröjan. Han säger till hemsidan att han är extremt glad att han har förlängt sitt kontrakt.
+
+## Benjamin Tannus på plats i Jönköping?
 
 **3:e januari**
 
 Enligt mina uppgifter så är den tidigare J-Södra spelaren Benjamin Tannus påväg tillbaka till klubben, det sägs att han är på plats i Jönköping för att skriva på ett avtal. Benjamin kommer senast ifrån Åtvidaberg där han förra säsongen var lagkapten.
 
-### Södra förhandlar med flera spelare.
+## Södra förhandlar med flera spelare.
 
 **3:e januari**
 
 Bengt Canell berättar för JP att man är i förhandlignar med Alexander Nilsson, Daniel Strandsäter och Anton Thorsson om vidare spel i den gröna tröjan. Alla tre hade klausuler i sina kontrakt som säger att kontraktet ska omförhandlas vid degradering. Om det blir någon förlängning av Elias Nordströms lån var Bengt tveksam till.
 
-### Alexander Berntsson länmar.
+## Alexander Berntsson länmar.
 
 **3:e januari**
 
